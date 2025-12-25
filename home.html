@@ -15,9 +15,9 @@
     <body class="flex justify-center items-center min-h-screen">
 
     <!-- phone mockup started here -->
-    <div class="mockup-phone h-160">
+    <div class="mockup-phone h-170">
   <div class="mockup-phone-camera"></div>
-  <div class="mockup-phone-display text-white grid place-content-center bg-blue-100">
+  <div class="h-170 mockup-phone-display text-white grid place-content-center bg-blue-100">
 
     <!-- phone display exact here -->
      <h3 id="main-balance" class="text-5xl text-black font-bold text-center">55000</h3>
@@ -25,9 +25,11 @@
      <hr class="text-black">
      <br>
      <div class="flex gap-5">
-        <button id="add-big-btn" class="btn btn-xl bg-purple-500">Add Money</button>
-     <button id="cash-big-btn" class="btn btn-xl bg-purple-500">Cash Out</button>
-     </div> <br>
+        <button id="add-big-btn" class="btn btn-lg bg-purple-500">Add Money</button>
+     <button id="cash-big-btn" class="btn btn-lg bg-purple-500">Cash Out</button>
+     </div>
+     <button id="transaction-btn" class="mt-2 btn btn-lg bg-purple-400">Transactions</button> <br>
+     
 
      <!-- Add Money form started here -->
       <div id="add-money-form" class="card bg-purple-400 w-full max-w-xl shrink-0 shadow-2xl">
@@ -56,7 +58,15 @@
         </fieldset>
       </div>
     </div>
+
+    <!-- transaction section div -->
+    <div id="transaction-div" class="hidden text-center"> 
+      <h1 class="text-2xl font-bold text-black">Transactions History</h1>
+    </div>
+
+
   </div>
+  </div> 
 </div>
 
       <script src="js/toggle.js"></script>
