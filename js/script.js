@@ -1,4 +1,3 @@
-
 // login button click and load on the home page
 const loginBtn = document.getElementById("login-btn").addEventListener("click", function (){
     // get the phone value and pin value
@@ -18,4 +17,4 @@ const loginBtn = document.getElementById("login-btn").addEventListener("click", 
         alert("Wrong credentials. Please try again")
     }
 })
-// -------------------------------------
+// -------------------------------------  

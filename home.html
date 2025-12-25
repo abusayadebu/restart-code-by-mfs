@@ -20,7 +20,7 @@
   <div class="mockup-phone-display text-white grid place-content-center bg-blue-100">
 
     <!-- phone display exact here -->
-     <h3 class="text-5xl text-black font-bold text-center">55000</h3>
+     <h3 id="main-balance" class="text-5xl text-black font-bold text-center">55000</h3>
      <p class="text-black text-center">Available Balance</p>
      <hr class="text-black">
      <br>
@@ -34,11 +34,11 @@
       <div class="card-body">
         <fieldset class="fieldset">
           <label class="label text-lg text-black">Add Money Amount</label>
-          <input type="phone" class="input text-black" placeholder="Amount" />
+          <input id="add-amount" type="phone" class="input text-black" placeholder="Amount" />
           <label class="label text-lg text-black">Pin Number</label>
-          <input type="password" class="input text-black" placeholder="Enter Your Pin" />
+          <input id="pin-number" type="password" class="input text-black" placeholder="Enter Your Pin" />
 
-          <button id="login-btn" class="btn btn-neutral mt-4">Add Money</button>
+          <button id="add-money-btn" class="btn btn-neutral mt-4">Add Money</button>
         </fieldset>
       </div>
     </div>
@@ -46,6 +46,6 @@
 </div>
 
 
-
+      <script src="js/addmoney.js"></script>
 </body>
 </html>
